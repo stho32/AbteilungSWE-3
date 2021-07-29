@@ -6,7 +6,7 @@ Eine Sache ist Abteilungsreif, wenn es möglich ist den Bearbeiter der Aufgabe i
 
 Beispiel: 
 
-Ein Repository ist Abteilungsreif, wenn 
+Ein Repository ist abteilungsreif, wenn 
 - es ohne Aufwand betreten und verlassen werden kann.
 - zwischen den Nutzern sichergestellt ist, dass der Code jederzeit brauchbar ist, also der nächste Nutzer/Bearbeiter ohne Probleme loslegen kann
 - Eine passende Entwicklungsumgebung aus einer im Repository bekannten Konfiguration schnell und problemfrei erstellt und zerstört werden kann.
