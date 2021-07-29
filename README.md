@@ -11,3 +11,4 @@ Ein Repository ist abteilungsreif, wenn
 - zwischen den Nutzern sichergestellt ist, dass der Code jederzeit brauchbar ist, also der nächste Nutzer/Bearbeiter ohne Probleme loslegen kann
 - Eine passende Entwicklungsumgebung aus einer im Repository bekannten Konfiguration schnell und problemfrei erstellt und zerstört werden kann.
 - Aus der Entwicklungsumgebung ohne Kenntnisse in der Produktivumgebung Freigaben nach Test, Staging oder Production automatisch erfolgen, ohne dass der Entwickler Zugangsdaten zu den Production-Systemen benötigt.
+- Eine integrierte Qualitätssicherung sollte bestmöglich sicherstellen, dass aus Versehen keine bestehenden Funktionalitäten zerstört werden.
