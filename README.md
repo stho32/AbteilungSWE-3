@@ -21,7 +21,7 @@ Ein Repository ist abteilungsreif, wenn
 - Aus der Entwicklungsumgebung ohne Kenntnisse in der Produktivumgebung Freigaben nach Test, Staging oder Production automatisch erfolgen, ohne dass der Entwickler Zugangsdaten zu den Production-Systemen benötigt.
 - Eine integrierte Qualitätssicherung sollte bestmöglich sicherstellen, dass aus Versehen keine bestehenden Funktionalitäten zerstört werden.
 
-Abteilungsreife stellt also einen unterschiedlich anwendbaren Qualitätsstandard dar, der sich im Grunde um Vertretbarkeit rankt. Er ist der gemeinsame Nenner der die Arbeiten von (theoretisch) beliebig vielen Personen zusammenfügt.
+Abteilungsreife stellt sich für jedes Artefakt und für jeden Prozessschritt anders dar, macht aber aus meiner Sicht die zu leistende Arbeit erst solide und professionell. Als Metaphern führe ich gerne die Wasserversorgung, Stromversorgung oder Internetverfügbarkeit an. Abteilungsreif bedeutet für mich, dass die Versorgung störungsfrei und in gleichbleibend hoher Qualität sichergestellt ist - und nicht von den Launen von diesem oder jenem abhängig ist.
 
 ## Der Prozess
 
