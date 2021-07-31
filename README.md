@@ -23,6 +23,8 @@ Ein Repository ist abteilungsreif, wenn
 
 Abteilungsreife stellt sich für jedes Artefakt und für jeden Prozessschritt anders dar, macht aber aus meiner Sicht die zu leistende Arbeit erst solide und professionell. Als Metaphern führe ich gerne die Wasserversorgung, Stromversorgung oder Internetverfügbarkeit an. Abteilungsreif bedeutet für mich, dass die Versorgung störungsfrei und in gleichbleibend hoher Qualität sichergestellt ist - und nicht von den Launen von diesem oder jenem abhängig ist.
 
+Das ist aber nicht nur eine Leistung gegenüber den Konsumenten, sondern auch eine gegenüber dem Team. So steht oder fällt damit, ob jemand ungestört in Urlaub gehen kann, sich im Falle einer Erkrankung voll auf seine Genesung konzentrieren kann oder auch pünktlichen Feierabend haben kann um dann seine Familie zu genießen oder was auch immer er sonst noch mit seinem Leben vor hat. In der Zeit des "hyperactive hive mind" (Cal Newport) und "always on" Mentalität, in der Aufgabenlisten notorisch unter Aufmerksamkeitsstörungen zu leiden scheinen, ist das ein nicht zu unterschätzender Wohlfühlfaktor. 
+
 ## Der Prozess
 
 Der Prozess, in dem wir Aufgaben erhalten und bearbeiten sieht wie folgt aus: 
