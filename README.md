@@ -1,4 +1,4 @@
-# AbteilungSWE2021
+# Abteilung SWE 3
 
 ## Vorwort
 
