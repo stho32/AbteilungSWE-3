@@ -24,5 +24,5 @@ jobs:
             args:  --output=output/abteilungswe-v3.pdf ${{ steps.files_list.outputs.files }} --toc -V toc-title:"Inhaltsverzeichnis" -V linkcolor:blue -V geometry:a4paper -V geometry:margin=2cm -V fontsize=12pt --pdf-engine=xelatex --template=Source/_tools/template.tex
       - uses: actions/upload-artifact@master
         with:
-            name: output
-            path: output
+            name: pdf
+            path: output/abteilungswe-v3.pdf
