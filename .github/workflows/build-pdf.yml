@@ -15,5 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: build the pdf
-        run: pwsh ./build.ps1
+      - name: create file list 
+        id : files_list
+        run: echo "::set-output name=files::$(pwsh ./create-filelist-for-github-action.ps1)"
+
+      - uses: docker://pandoc/latex:2.9
+        with:
+            args:  --output=output/abteilungswe-v3.pdf ${{ steps.files_list.outputs.files }}
+      - uses: actions/upload-artifact@master
+        with:
+            name: output
+            path: output
