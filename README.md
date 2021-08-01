@@ -1,4 +1,4 @@
-# Abteilung SWE 3
+# Abteilung SWE v3
 
 ## Vorwort
 
