@@ -26,3 +26,9 @@ jobs:
         with:
             name: pdf
             path: output/abteilungswe-v3.pdf
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            output/abteilungswe-v3.pdf
