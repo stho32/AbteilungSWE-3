@@ -20,7 +20,7 @@ Der Prozess, in dem wir Aufgaben erhalten und bearbeiten sieht wie folgt aus:
 
 6. *Wartet auf QA (Teamleiter)* : Die Aufgabe wartet auf ein Kommentar vom Teamleiter
 
-7. *in Bearbeitung* : Diese Aufgaben bearbeitet das Team im Moment.
+7. *in Bearbeitung* (WIP 3) : Diese Aufgaben bearbeitet das Team im Moment.
 
 **Erledigt / Auswertung**
 
