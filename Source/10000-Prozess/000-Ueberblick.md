@@ -6,7 +6,7 @@ Der Prozess, in dem wir Aufgaben erhalten und bearbeiten sieht wie folgt aus:
 
 **Aufgabeneingang**
 
-1. *Neu / Zu bewerten* \\ Eine Aufgabe trifft ein, im nächsten Schritt muss sie bewertet und einem Bereich zugeordnet werden (Teamleiter)
+1. *Neu / Zu bewerten* <br> Eine Aufgabe trifft ein, im nächsten Schritt muss sie bewertet und einem Bereich zugeordnet werden (Teamleiter)
 
 2. *Aufgabenklärung* \\ Falls die Aufgabe komplexer ist, führt der Teamleiter eine Aufgabenklärung durch, d.h. eine Vorkommunikation mit dem Kunden.
 
