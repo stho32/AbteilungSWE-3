@@ -42,7 +42,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
+          prerelease: false
+          title: "Ganz automatischer Build"
           files: |
             output/abteilungswe-v3.pdf
