@@ -43,6 +43,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: false
-          title: "Ganz automatischer Build"
+          title: "Hier gibt's die neuste PDF"
           files: |
             output/abteilungswe-v3.pdf
