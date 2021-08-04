@@ -1,4 +1,4 @@
-## DevOps_-Engineer
+## DevOps-Engineer
 
 Der DevOps-Engineer ist eine Hilfsrolle. In seinen Aufgabenbereich gehört der Aufbau und die Wartung der CI/CD Pipeline sowie der Aufbau der Repositories, so, dass Entwickler sich um die Umgebung, in der Sie arbeiten, so wenig wie möglich kümmern müssen.
 
