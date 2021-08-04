@@ -8,6 +8,10 @@ Als Abteilung erhalten wir sehr viele Aufgaben von sehr unterschiedlichen Positi
 
 EFP ist eine skalenbasierte Bewertungsmethode von Herrn Stausberg von https://www.convek.de . In einem Workshop mit den Führungskräften einer Firma wird herausgearbeitet, welche Kriterien für den Unternehmenserfolg am Wichtigsten sind. Mit diesen Skalen lassen sich dann aus strategischer Sicht Projekte bewerten und folglich bekommt man einen Einblick darin, was man als nächstes tun sollte.
 
+Wir benutzen das noch zu etwas anderem, darauf gehe ich später noch mehr ein: 
+
+Der **Nutzen** ist für uns ein hervorragendes Maß um die Produktivität zu messen. Es ist schließlich der erreichte Nutzen für die Firma. Das bedeutet, wir können hier ermitteln, was die Abteilung relativ gesehen geleistet hat und haben ein Maß über das wir Management-Maßnahmen steuern können. Es ist eine Art "Bezahlung nach Nutzen statt Aufwand". 
+
 EFP benötigt nicht nur eine Skala für den Nutzen, sondern auch eine für den Aufwand. Die bisherigen Experimente, die wir durchgeführt haben, zeigen aber, dass wir anscheinend noch nicht so richtig den Dreh raus haben, wie wir den Aufwand schätzen sollen, ohne dabei selbst viel Aufwand zu produzieren. Wie wir das abfangen, darüber spreche ich im nächsten Abschnitt.
 
 
