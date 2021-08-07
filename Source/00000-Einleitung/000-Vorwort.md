@@ -2,17 +2,21 @@
 
 ## Vorwort    
     
-Dieses Dokument beschreibt eine Idee für die Organisation einer kleinen Softwareentwicklungsabteilung. Ich werde mehrere davon schreiben (so der Plan) sowie versuchen die entsprechenden Formen zu testen um mehr über die Effektivität unterschiedlicher Methoden zu erfahren. Damit meine Freunde und Bekannten und auch mir Unbekannte gerne an der Entwicklung unterschiedlicher Organisationsformen teilhaben können bin ich so frei und schreibe dieses Dokument "out in the open". Mal schauen.
-        
-Nach den Erfahrungen der letzten Jahre steht diese Form im Zeichen von einem Begriff, den ich einfach mal frei definiere. Ich nenne ihn "Abteilungsreife". Vielleicht könnte man ihn auch Prozessreife nennen. 
+Dieses Dokument beschreibt eine Idee für die Organisation einer kleinen Softwareentwicklungsabteilung. Ich werde mehrere davon schreiben (so der Plan) sowie versuchen die entsprechenden Formen zu testen um mehr über die Effektivität unterschiedlicher Methoden zu erfahren. 
 
-Neben "Abteilungsreife" als zentralen Begriff stehe ich auf den Schultern der Theory of Constraints / Engpasstheorie, Kanban, sowie auf jenen von Herrn Stausberg von Convek, der eine hervorragende Methode für Priorisierung erfunden hat, die innerhalb des Systems eine Reihe von Fragen beantworten wird. Im Moment ist die Abteilung auf 2 Personen geschrumpft und die Strategie hat sich deutlich geändert. Sicher werden wir auch wieder wachsen, aber auch aus dieser Angabe lässt sich vielleicht gut ableiten, warum wir kein Prozessmodell "von der Stange" umsetzen (falls das überhaupt möglich ist).
+Diesmal möchte ich die Mitschrift von Anfang an freigeben, und damit einem Prinzip folgen, welches ich vor vielen Jahren aufschrieb: [Schaffe permanente Dinge, entwickle diese schrittweise weiter und teile sie](http://stho32.github.io/Prinzipien/docfx_project/site/articles/Arbeit-erledigen/Schaffe-permanente-Dinge-und-entwickle-diese-schrittweise-weiter.html).
+
+Nach den Erfahrungen der letzten Jahre steht dieses bestimmte Dokument im Zeichen von einem Begriff, den ich einfach mal frei definiere. Ich nenne ihn "Abteilungsreife". Die vorherigen Dokumente (v2 und v1) entstanden eher frei und ohne zentrales Thema. Es ging eigentlich immer nur darum, das jeweils unmittelbare nächste Problem zu lösen, Ziele zu extrahieren und diese dann miteinander zu vernetzen. In "Abteilungsreife" möchte ich nun die Learned Lessons anwenden um ein geschlossenes sauberes Abteilungskonzept zu erstellen, das von sagen wir 2 bis 10 Leuten skalieren kann. Inklusive der Definition der Interfaces in den Rest der Unternehmung. Mal sehen wie das gelingt.
+
+Neben dem zentralen Begriff stehe ich auf den Schultern der Theory of Constraints / Engpasstheorie, Kanban, sowie auf jenen von Herrn Stausberg von Convek, der eine hervorragende Methode für Priorisierung erfunden hat, die innerhalb des Systems eine Reihe von Fragen beantworten wird. 
+
+\newpage{} 
 
 ## Danksagungen
 
-  - Vielen Dank an meine beiden Kollegen, welche mich von 2018 bis 2021 begleitet haben, und mich bei den ersten Varianten dieses Dokumentes unterstützten. Nachdem ich viele Jahre allein in der Abteilung tätig war, kamen sie neu hinzu und hatten mit einem deutlicheren Kontrast zwischen dem, was sie zuvor kannten und dem was sich in Isolation für Prozesse entwickelt hatten zu tun. Ohne Ihre Unterstützung und Toleranz wären die ersten beiden Versionen des Dokumentes und viele Erfahrungen nicht möglich gewesen.
+  - Vielen Dank an meine beiden Kollegen, welche mich von 2018 bis 2021 begleitet haben, und mich bei den ersten Varianten dieses Dokumentes unterstützten. Nachdem ich viele Jahre allein in der Abteilung tätig war, kamen sie neu hinzu und hatten mit einem deutlicheren Kontrast zwischen dem, was sie zuvor kannten und unseren Prozessen zu tun. Ohne Ihre Unterstützung und Toleranz wären die ersten beiden Versionen des Dokumentes und viele Erfahrungen nicht möglich gewesen.
   - Vielen Dank an meinen Teamleiter und meine weiteren Vorgesetzten, für die Möglichkeit, diese Arbeit fortzuführen.
 
-Darüber hinaus tragen viele zu den Inhalten dieses Heftchens durch ihre Beteiligung in Gesprächen oder generell an meinem Arbeitsleben bei, so dass vieles keinem einzelnen Autor oder Erfinder zugeordnet werden kann. Mal abgesehen von den unbewussten Beiträgen derer, die den Bereich Softwareentwicklung im Größeren beeinflussen und deren fleißiger lesender und hörender Konsument ich bin. Daher bin ich in aller Bescheidenheit der Typ, der "it just so happens" das Ganze aufschreibt während mein Dank dem wilden Haufen der mich umgebenden Menschen gilt.
+Darüber hinaus tragen viele zu den Inhalten dieses Heftchens durch ihre Beteiligung in Gesprächen oder generell an meinem Arbeitsleben bei, so dass vieles keinem einzelnen Autor oder Erfinder zugeordnet werden kann. Zusätzlich lese ich viel und besuche Konferenzen. Daher bin ich in aller Bescheidenheit der Typ, der "it just so happens" das Ganze mal aufschreibt während mein Dank dem wilden Haufen der mich umgebenden Menschen gilt, die mich jeden Tag neu mit Informationen füttern und inspirieren.
 
-Danke, dass Ihr da seit. Danke, wenn ihr die Aufzeichnung lest. Super, wenn es euch etwas bringt. Und noch mehr Dank, wenn ihr mitwirkt.
+Danke, dass Ihr da seit. 
