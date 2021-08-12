@@ -27,7 +27,7 @@ Da wir uns der Natur und Fälsche von Schätzungen bewusst sind, möchten wir in
 
 Die Schätzung der Dauern soll nach Möglichkeit nicht auf irgendetwas basieren, sondern auf unserer historischen Performance und kann gerne von unseren kontinuierlich geschaffenen Messwerten lernen. Mit der Erlaubnis auch falsch zu schätzen, denn das würden wir so auch, nur mit mehr Aufwand. 
 
-Da sich mit den unterschiedlichen Möglichkeiten ein eigenes Buch verfassen lässt, habe ich dazu ein eigenes Repository erstellt: [https://github.com/stho32/Estimating-Task-Durations](https://github.com/stho32/Estimating-Task-Durations)
+Da sich mit den unterschiedlichen Möglichkeiten ein eigenes Buch verfassen lässt, habe ich dazu ein eigenes Repository erstellt: [https://github.com/stho32/Automatically-Estimating-Task-Durations](https://github.com/stho32/Automatically-Estimating-Task-Durations)
 
 
 ## 2.3 Wie bringt man am meisten Nutzenpunkte nach Hause?
