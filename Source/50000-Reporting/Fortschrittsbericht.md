@@ -1,3 +1,4 @@
+
 ## Fortschrittsbericht
 
 Der Fortschrittsbericht wird einmal pro Woche, kurz vor dem Jour Fix, automatisiert und an das Team und den zuständigen Geschäftsführer geschickt. 

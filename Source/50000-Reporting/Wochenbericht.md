@@ -1,3 +1,4 @@
+
 ## Wochenbericht
 
 Der Wochenbericht wird jeden Freitag, spätestens Samstag erstellt. Er behandelt den Leistungszeitraum zwischen dem letzten Samstag und diesem Freitag. 
