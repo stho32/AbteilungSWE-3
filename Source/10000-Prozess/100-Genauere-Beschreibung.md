@@ -2,11 +2,13 @@
 
 ### Was passiert vorher?
 
-In der Regel erreichen uns Aufgaben derzeit (01.08.2021) per E-Mail. Jeder von uns hat ein unsagbar volles Postfach, eine ganze Reihe an E-Mails bekommen wir über einen Verteiler auch mehrfach. Jeder wühlt sich durch und erstellt zu den Emails, die er mag Aufgaben. Hierzu gibt es ein Powershell-Cmdlet in der Support-Shell.
+Wir haben ein geteiltes Postfach, über das der Großteil der Kommunikation mit unserer Umfeld erfolgt. Die Mitglieder des Teams E-Mailen bei allem, was nicht ultraspezifisch für den Mitarbeiter ist (z.B. Essensbestellung) von diesem Postfach aus. Alle Mitabreiter im Unternehmen sind angewiesen Anfragen an das geteilte Postfach zu senden.
 
-Dadurch verbringt man am Morgen zunächst ca. 0,25 bis 1,5 Stunden damit in E-Mails herumzuwühlen.
+Es existiert ein Powershell-Commandlet, mit dem E-Mails in Kanban-Aufgaben umgewandelt werden können. (Zukünftig ist angedacht, dass der Umwandlungsprozess automatisch durchgeführt wird. Des Weiteren könnten einzelne Aufgaben automatisch klassifiziert und bepunktet werden, was die Teamleitung entlasten würde.)
 
-Jeder Kollege hat hierbei nur die E-Mails im Blick, die er zu seinem Einflussbereich oder Arbeitsbereich zählt. Den Rest filtert er großzügig weg. Dadurch sind Kommunikationsströme in der Regel, wenn sie länger laufen, nicht nachvollziehbar und entsprechend sind Aufgaben schwer zu übergeben oder übernehmen, was unser Ziel "Abteilungsreife" verletzt.
+Durch das geteilte Postfach wird der Pflegeaufwand zwischen den Mitgliedern des Teams aufgeteilt.
+
+Da oft nur eine (in den meisten Fällen die erste) E-Mail direkt an die Kanban-Aufgabe angehängt wird, sind Kommunikationspfade oft nicht gut nachvollziehbar. Auf der anderen Seite ist die Notwendigkeit eines "trockenen Nachvollzugs" oft nicht gegeben. Daher ist die Korrektur dieses Prozessanteils aktuell aufgeschoben.
 
 ### Status 1: Neu / Zu bewerten
 
@@ -14,6 +16,10 @@ Nachdem über das Cmdlet eine Aufgabe auf dem Kanban-Board erzeugt wurde, ist es
 
 - Er bewertet den Nutzen (ggf. mit dem Kunden, unter Nutzung von EFP)
 - Er ordnet die Aufgabe einem Arbeitsbereich zu, das ist bei uns i.d.R. anhand von Abteilungen oder größeren Funktionsbereichen, z.B. Personal / Recruiting, Personaladministration, IT-Service ...
+
+(Anmerkung für später: Da wir eigentlich den Absender kennen und der Arbeitsbereich oft die Abteilung widerspiegelt, aus der der Absender kommt, können wir die Zuordnung des Arbeitsbereiches zukünftig vermutlich automatisieren.)
+
+In das Cmdlet ist eine automatische Schätzung der Aufgabendauer eingebaut. Damit wird jede Aufgabe automatisch mit einer Zeitschätzung versehen und unmittelbar nach der Aufnahme ist daher durch die Teamleitung eine Einschätzung der Wirtschaftlichkeit der Aufgabe möglich. Nähere Informationen dazu finden Sie im Kapitel "Bewertung".
 
 ### Status 2: Aufgabenklärung
 
