@@ -15,8 +15,11 @@ Nachdem über das Cmdlet eine Aufgabe auf dem Kanban-Board erzeugt wurde, ist es
 
 - Er bewertet den Nutzen (ggf. mit dem Kunden, unter Nutzung von EFP)
 - Er ordnet die Aufgabe einem Arbeitsbereich zu, das ist bei uns i.d.R. anhand von Abteilungen oder größeren Funktionsbereichen, z.B. Personal / Recruiting, Personaladministration, IT-Service ...
+- Er ordnet die Aufgabe einem von 3 größeren farblich getrennten Bereichen zu: Weiterentwicklung, Bugfixe und Benutzersupport. Bei jedem der Aufgabenbereiche wirkt der bestimmte Nutzen anders.
 
 In das Cmdlet ist eine automatische Schätzung der Aufgabendauer eingebaut. Damit wird jede Aufgabe automatisch mit einer Zeitschätzung versehen und unmittelbar nach der Aufnahme ist daher durch die Teamleitung eine Einschätzung der Wirtschaftlichkeit der Aufgabe möglich. Nähere Informationen dazu finden Sie im Kapitel "Bewertung".
+
+Innerhalb des Prozesses gibt es 3 farbliche Kategorien, die die Sortierung der Aufgaben noch vor der Wirtschaftlichkeit beeinflussen: Benutzersupport, Bugfixe und Weiterentwicklung. Erst innerhalb der einzelnen farblichen Kategorien beeinflusst die Wirtschaftlichkeit die Entscheidungen mit. Zunächst muss Benutzersupport geklärt werden. Denn das sind Benutzer, denen geholfen gehört. Im zweiten Schritt müssen Fehler behoben werden, weil sie ansonsten mehr und mehr Benutzersupport verursachen. Des Weiteren bringt es Unglück auf einem fehlerhaften System mehr und mehr anzubauen. Im dritten Schritt geht es dann um Weiterentwicklung. 
 
 ### Status 2: Aufgabenklärung
 
@@ -33,6 +36,8 @@ Anhand des Inhalts der Aufgabe hat der Teamleiter folgende Möglichkeiten:
 
 Ist in der Queue gerade kein Platz oder kann die Aufgabe eh noch nicht sofort angegangen werden, weil sie an einen Startzeitpunkt geknüpft ist, dann wird sie zurückgestellt. Hier können im Grunde beliebig viele Aufgaben abgelegt werden. Allerdings wird die Spalte irgendwann unhandlich. Aufgabe des Teamleiters ist hier einigermaßen einen Überblick zu wahren. Er steuert die Arbeit der Abteilung durch regelmäßige Nachfüllung der Queue. Wenn nicht irgendetwas anderes sich vordrängelt, dann kann er hier die wertigsten Aufgaben heraussuchen.
 
+Die zurückgestellten Aufgaben sollten nach der Wirtschaftlichkeit absteigend sortiert sein. Die Wirtschaftlichkeit ergibt sich als Quotient von Nutzen zu Aufwand. So kann die Teamleitung leicht besonders wirtschaftliche Aufgaben freigeben.
+
 ### Status 4: "Queue" (WIP 10)
 
 Die Queue ist die Spalte, aus der sich das Team die Aufgaben entnimmt. Diese Aufgaben sind freigegeben und sollen so schnell wie möglich bearbeitet werden. Das ist immer gleich, d.h. das Team soll sich nie fragen müssen, ob eine Aufgabe dringender ist oder nicht. Es soll bei der Arbeit auch nicht unterbrochen oder umrangiert werden. Alle organisatorischen Dinge sollten zum Zeitpunkt der Eingabe in die Queue bereits geklärt sein. 
@@ -40,6 +45,8 @@ Die Queue ist die Spalte, aus der sich das Team die Aufgaben entnimmt. Diese Auf
 Die Queue bestimmt im Wesentlichen die Agilität der Abteilung. Je mehr Aufgaben in der Queue sind, desto schwieriger ist es "das Schiff zu wenden", also auf spontane Anforderungen der Umgebung zu reagieren. Auf der anderen Seite kann sich der Teamleiter so auch Puffer schaffen, in dem er dafür sorgt, dass immer eine Mindestanzahl an Aufgaben vorhanden ist. 
 
 Daher ergibt sich das WIP-Limit. 
+
+Die Queue ist nach Aufgabenkategorie (Farbe) und nach Wirtschaftlichkeit sortiert. Zunächst wird Benutzersupport erledigt, dann Bugfixe und dann Weiterentwicklungsaufgaben.
 
 ### Status 5: "Wartet auf"
 
