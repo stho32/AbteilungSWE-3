@@ -18,17 +18,15 @@ Der Prozess, in dem wir Aufgaben erhalten und bearbeiten sieht wie folgt aus:
 
 5. *Wartet auf* : Die Aufgabe wartet auf jemanden oder etwas, kann also nicht geschlossen abgearbeitet werden.
 
-6. *Wartet auf QA (Teamleiter)* : Die Aufgabe wartet auf ein Kommentar vom Teamleiter
-
-7. *in Bearbeitung* (WIP 3) : Diese Aufgaben bearbeitet das Team im Moment.
+6. *in Bearbeitung* (WIP 3) : Diese Aufgaben bearbeitet das Team im Moment.
 
 **Erledigt / Auswertung**
 
-8. *Diese Woche erledigt* : In dieser Woche erreichtes Ergebnis.
+7. *Diese Woche erledigt* : In dieser Woche erreichtes Ergebnis.
 
-9. *Monats-Review-Spalte* : In diesem Monat erreichtes Ergebnis.
+8. *Monats-Review-Spalte* : In diesem Monat erreichtes Ergebnis.
 
-10. Archiv-Board : Ablage bei den historischen Daten (ggf. für statistische Auswertung)
+9. Archiv-Board : Ablage bei den historischen Daten (ggf. für statistische Auswertung)
 
 Das Ziel eines jeden beliebigen Zeitraums ist die Punktezahl (aus der Bewertung) zu maximieren, die in der Spalte "Diese Woche erledigt" auftaucht. 
 

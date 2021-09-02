@@ -4,11 +4,10 @@
 
 Wir haben ein geteiltes Postfach, über das der Großteil der Kommunikation mit unserer Umfeld erfolgt. Die Mitglieder des Teams E-Mailen bei allem, was nicht ultraspezifisch für den Mitarbeiter ist (z.B. Essensbestellung) von diesem Postfach aus. Alle Mitabreiter im Unternehmen sind angewiesen Anfragen an das geteilte Postfach zu senden.
 
-Es existiert ein Powershell-Commandlet, mit dem E-Mails in Kanban-Aufgaben umgewandelt werden können. (Zukünftig ist angedacht, dass der Umwandlungsprozess automatisch durchgeführt wird. Des Weiteren könnten einzelne Aufgaben automatisch klassifiziert und bepunktet werden, was die Teamleitung entlasten würde.)
+Es existiert ein Powershell-Commandlet, mit dem E-Mails in Kanban-Aufgaben umgewandelt werden können. Das verarbeitet alle E-Mails im Eingang und bastelt Kanban-Aufgaben daraus. Je mehr man über die Aufgabe aus dem Betreff ableiten kann, desto besser. Einige Aufgaben, die zu Standard-Vorgängen gehören, können automatisch klassifiziert werden, was die Teamleitung entlastet. 
 
-Durch das geteilte Postfach wird der Pflegeaufwand zwischen den Mitgliedern des Teams aufgeteilt.
+Durch das geteilte Postfach wird der Pflegeaufwand zwischen der Automatisierung und den Mitgliedern des Teams aufgeteilt, das setzt mehr Zeit für die Entwicklung neuer Funktionen frei.
 
-Da oft nur eine (in den meisten Fällen die erste) E-Mail direkt an die Kanban-Aufgabe angehängt wird, sind Kommunikationspfade oft nicht gut nachvollziehbar. Auf der anderen Seite ist die Notwendigkeit eines "trockenen Nachvollzugs" oft nicht gegeben. Daher ist die Korrektur dieses Prozessanteils aktuell aufgeschoben.
 
 ### Status 1: Neu / Zu bewerten
 
@@ -16,8 +15,6 @@ Nachdem über das Cmdlet eine Aufgabe auf dem Kanban-Board erzeugt wurde, ist es
 
 - Er bewertet den Nutzen (ggf. mit dem Kunden, unter Nutzung von EFP)
 - Er ordnet die Aufgabe einem Arbeitsbereich zu, das ist bei uns i.d.R. anhand von Abteilungen oder größeren Funktionsbereichen, z.B. Personal / Recruiting, Personaladministration, IT-Service ...
-
-(Anmerkung für später: Da wir eigentlich den Absender kennen und der Arbeitsbereich oft die Abteilung widerspiegelt, aus der der Absender kommt, können wir die Zuordnung des Arbeitsbereiches zukünftig vermutlich automatisieren.)
 
 In das Cmdlet ist eine automatische Schätzung der Aufgabendauer eingebaut. Damit wird jede Aufgabe automatisch mit einer Zeitschätzung versehen und unmittelbar nach der Aufnahme ist daher durch die Teamleitung eine Einschätzung der Wirtschaftlichkeit der Aufgabe möglich. Nähere Informationen dazu finden Sie im Kapitel "Bewertung".
 
@@ -52,12 +49,11 @@ Beispiele für Hindernisse:
 - Urlaub oder Krankheit von Mitarbeitern (Kann jemand anders übernehmen?)
 - Unkontrollierter Arbeiter/Spammer (Jemand füllt unsere Queue mit lauter Aufgaben ohne selbst die Kapazität für eine gleichschnelle Kooperation / Abnahme zu haben.)
 - Kommunikationshindernisse (Es waren nicht alle Informationen vorhanden, die zur Bearbeitung nötig sind.)
-
-### Status 6: "Wartet auf QA (Teamleiter)"
-
-Hier wenden sich die Mitarbeiter direkt an den Teamleiter. Z.B. weil eine Aufgabe keinen externen Auftraggeber hat (z.B. ein Dienst, der von SWE gebaut wurde und abgestürzt ist). Oder der Teamleiter hat die Aufgabe markiert, weil er sich für das Ergebnis besonders interessiert. Hier muss der Bearbeiter dann vorstellen.
+- Zeitliche Restriktionen der Kooperationspartner (Jemand reicht eine Aufgabe ein, hat aber selbst nicht ausreichend Zeit um die Aufgabe schnell zu erledigen.)
 
 ## Erledigt / Auswertung
 
 Hier gibt es 3 Berichtsebenen. Es wird ausgewertet und sich gefreut, wie viel man erreicht hat.
+
+Es gibt das Wochenergebnis. Das Monatsergebnis und das Archiv.
 
