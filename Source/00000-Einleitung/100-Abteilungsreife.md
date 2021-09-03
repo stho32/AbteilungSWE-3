@@ -1,4 +1,4 @@
-## Was ist Abteilungsreife?
+## Was ist Prozessreife?
 
 _Eine Sache ist Abteilungsreif, wenn es möglich ist den Funktionserfüller innerhalb der Abteilung unabhängig von seinen Vorkenntnissen schnell und problemfrei auszutauschen. Dabei muss die Funktion in gleichbleibender Qualität und Geschwindigkeit weiter erbracht werden, so dass von Außen keine Änderung wahrnehmbar ist._ 
 
