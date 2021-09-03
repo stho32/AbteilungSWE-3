@@ -8,6 +8,6 @@
 3. Weiterentwicklung, wobei Aufgaben mit hohem Nutzen bevorzugt werden müssen.
 
 - Um auch bei hohem Aufkommen anderer Arbeiten einen Mindestoutput zu gewährleisten, wird jede Woche ein "großer Brocken", also eine Aufgabe im Bereich Weiterentwicklung gewählt.
-- Um die Funktionalität der Anwendungen langfristig zu erhalten wird pro Woche oder Zeitabschnitt eine high value Optimierungsaufgabe gewählt.
+- Um die Funktionalität der Anwendungen langfristig zu erhalten wird pro Woche oder Zeitabschnitt eine high value Performance-Optimierungsaufgabe gewählt. Dazu überwachen wir Schlüsselpositionen und wählen die Funktion mit der schlimmsten Performance sowie den größten entsprechenden Auswirkungen.
 
 - Um die Queue langfristig in Schuß zu halten, müssen Benutzersupport und Bugfixe im Griff gehalten/reduziert werden. Dazu hinterfragt die Teamleitung und streut entsprechende Optimierungen und Lösungen selbstständig ein.
