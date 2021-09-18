@@ -7,7 +7,7 @@ Nehmen wir an, Du befindest Dich in der Situation, dass der Rest der Firma eigen
 Du kämpfst möglicherweise mit folgenden Problemen:
   - Ihr habt zu viele Aufgaben, als das ihr sie schaffen könnt. Die Auswahl, was ihr tut, ist ein nerviger Prozess.
   - Ihr habt zu viele unterschiedliche Leute, die euch Aufgaben schicken. Da sich u.a. auch die Entscheider untereinander nicht sauber abstimmen, müsst ihr selbst mitentscheiden was getan wird, ob ihr wollt oder nicht.
-  - Ihr habt möglicherweise intern im Team Trouble, weil die Wertigkeiten von diversen Tätigkeiten unterschiedlich beurteilt werden. Lohnt sich hier ein Refactoring?
+  - Ihr habt möglicherweise intern im Team Trouble, weil die Wertigkeiten von diversen Tätigkeiten unterschiedlich beurteilt werden. Lohnt sich hier ein Refactoring? Oder ist der Bereich für das Business einfach unwichtig und es wäre vergebene Liebesmüh?
   - Die Leute, die euch Aufgaben geben, haben nicht so viel Ahnung von Entwicklung. Daher erreichen euch Aufgaben in nicht optimalem Zustand.
   - Ihr müsst oder möchtet selbst beurteilen, ob ihr einen guten Job macht oder nicht.
   - Ihr habt ständig mit der psychischen Belastung von Zeitschätzungen zu tun und habt eine Menge Druck, der irgendwie nicht weggehen will.
