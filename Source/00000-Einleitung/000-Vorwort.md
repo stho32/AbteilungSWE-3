@@ -1,8 +1,8 @@
 # Einleitung
 
-## Vorwort    
+## Vorwort
     
-Dieses Dokument beschreibt eine Idee für die Organisation einer kleinen Softwareentwicklungsabteilung. Ich werde mehrere davon schreiben (so der Plan) sowie versuchen die entsprechenden Formen zu testen um mehr über die Effektivität unterschiedlicher Methoden zu erfahren. 
+Dieses Dokument beschreibt eine Idee für die Organisation einer kleinen Softwareentwicklungsabteilung.
 
 Diesmal möchte ich die Mitschrift von Anfang an freigeben, und damit einem Prinzip folgen, welches ich vor vielen Jahren aufschrieb: [Schaffe permanente Dinge, entwickle diese schrittweise weiter und teile sie](http://stho32.github.io/Prinzipien/docfx_project/site/articles/Arbeit-erledigen/Schaffe-permanente-Dinge-und-entwickle-diese-schrittweise-weiter.html).
 
