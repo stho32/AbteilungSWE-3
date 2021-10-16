@@ -2,9 +2,9 @@
 
 ### Was passiert vorher?
 
-Wir haben ein geteiltes Postfach, über das der Großteil der Kommunikation mit unserer Umfeld erfolgt. Die Mitglieder des Teams E-Mailen bei allem, was nicht ultraspezifisch für den Mitarbeiter ist (z.B. Essensbestellung) von diesem Postfach aus. Alle Mitabreiter im Unternehmen sind angewiesen Anfragen an das geteilte Postfach zu senden.
+Wir haben ein geteiltes Postfach, über das der Großteil der Kommunikation mit unserer Umfeld erfolgt. Die Mitglieder des Teams E-Mailen bei allem, was nicht ultraspezifisch für den Mitarbeiter ist (z.B. Essensbestellung) von diesem Postfach aus. Alle Mitarbeiter im Unternehmen sind angewiesen Anfragen an das geteilte Postfach zu senden.
 
-Es existiert ein Powershell-Commandlet, mit dem E-Mails in Kanban-Aufgaben umgewandelt werden können. Das verarbeitet alle E-Mails im Eingang und bastelt Kanban-Aufgaben daraus. Je mehr man über die Aufgabe aus dem Betreff ableiten kann, desto besser. Einige Aufgaben, die zu Standard-Vorgängen gehören, können automatisch klassifiziert werden, was die Teamleitung entlastet. 
+Es existiert ein Powershell-Commandlet, mit dem E-Mails in Kanban-Aufgaben umgewandelt werden können. Das verarbeitet alle E-Mails im Eingang und bastelt Kanban-Aufgaben daraus. (Daraus folgt: Je mehr man über die Aufgabe aus dem Betreff ableiten kann, desto besser. Einige Aufgaben, die zu Standard-Vorgängen gehören, können automatisch klassifiziert werden, was die Teamleitung entlastet.) 
 
 Durch das geteilte Postfach wird der Pflegeaufwand zwischen der Automatisierung und den Mitgliedern des Teams aufgeteilt, das setzt mehr Zeit für die Entwicklung neuer Funktionen frei.
 
@@ -13,13 +13,11 @@ Durch das geteilte Postfach wird der Pflegeaufwand zwischen der Automatisierung 
 
 Nachdem über das Cmdlet eine Aufgabe auf dem Kanban-Board erzeugt wurde, ist es zunächst die Aufgabe des Teamleiters sie inhaltlich zu sondieren. 
 
-- Er bewertet den Nutzen (ggf. mit dem Kunden, unter Nutzung von EFP)
-- Er ordnet die Aufgabe einem Arbeitsbereich zu, das ist bei uns i.d.R. anhand von Abteilungen oder größeren Funktionsbereichen, z.B. Personal / Recruiting, Personaladministration, IT-Service ...
-- Er ordnet die Aufgabe einem von 3 größeren farblich getrennten Bereichen zu: Weiterentwicklung, Bugfixe und Benutzersupport. Bei jedem der Aufgabenbereiche wirkt der bestimmte Nutzen anders.
+- Er bewertet den Nutzen (ggf. mit dem Kunden, unter Nutzung von EFP, was das ist und woher es kommt, kommt noch später)
+- Er ordnet die Aufgabe einem Arbeitsbereich zu, das ist bei uns i.d.R. anhand von Abteilungen oder größeren Funktionsbereichen, z.B. Personal / Recruiting, Personaladministration, IT-Service ... Das hat keine weitere nähere Funktion, als ihn selbst später bei der Auswertung zu unterstützen
+- Er ordnet die Aufgabe einem von 3 größeren farblich getrennten Bereichen zu: Weiterentwicklung, Bugfixe und Benutzersupport. Bei jedem der Aufgabenbereiche wirkt der bestimmte Nutzen anders. Wir nennen diese in Folge auch manchmal Wertestreams. Was das bedeutet, kommt später.
 
 In das Cmdlet ist eine automatische Schätzung der Aufgabendauer eingebaut. Damit wird jede Aufgabe automatisch mit einer Zeitschätzung versehen und unmittelbar nach der Aufnahme ist daher durch die Teamleitung eine Einschätzung der Wirtschaftlichkeit der Aufgabe möglich. Nähere Informationen dazu finden Sie im Kapitel "Bewertung".
-
-Innerhalb des Prozesses gibt es 3 farbliche Kategorien, die die Sortierung der Aufgaben noch vor der Wirtschaftlichkeit beeinflussen: Benutzersupport, Bugfixe und Weiterentwicklung. Erst innerhalb der einzelnen farblichen Kategorien beeinflusst die Wirtschaftlichkeit die Entscheidungen mit. Zunächst muss Benutzersupport geklärt werden. Denn das sind Benutzer, denen geholfen gehört. Im zweiten Schritt müssen Fehler behoben werden, weil sie ansonsten mehr und mehr Benutzersupport verursachen. Des Weiteren bringt es Unglück auf einem fehlerhaften System mehr und mehr anzubauen. Im dritten Schritt geht es dann um Weiterentwicklung. 
 
 ### Status 2: Aufgabenklärung
 
