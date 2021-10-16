@@ -11,7 +11,6 @@ Davon ausgehend werden :
 
 - Make or buy-Entscheidungen vorbereitet
 - Aufgaben für das Entwicklerteam abgeleitet
-- Der Personalbedarf ermittelt und gemanaged
 - Das Personal und die Abteilung entwickelt
 
 **Optimierung:**

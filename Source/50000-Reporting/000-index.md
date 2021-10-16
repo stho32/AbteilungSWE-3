@@ -10,3 +10,4 @@ Tatsächlich schreiben wir für langfristige Betrachtungen Kennzahlen des Wochen
 
 Der Vorhersagebericht bestimmt anhand der zuletzt in der Abteilung bestehenden Kapazität, unter Beachtung der Queue sowie der Prioritäten und Restdauern, welche Aufgaben vermutlich in den nächsten n Wochen fertiggestellt werden. Die Vorhersage ist ebenfalls Teil des Wochenberichts.
 
+Beide sind bei uns fast vollständig automatisiert.
